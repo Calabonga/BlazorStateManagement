@@ -8,6 +8,8 @@
 
 На видео немного подробностей про понятие "состояние". Для тех, кто только начинает программировать это видео будет полезным. Потому что дает представление о том, что будет на последующих видео в этой серии.
 
+[![](https://www.calabonga.net/Uploads/blazor-state-management-1/1.png)](https://www.calabonga.net/blog/post/blazor-state-management-1)
+
 [Управление состоянием в Blazor 1](https://www.calabonga.net/blog/post/blazor-state-management-1)
 
 ## Первый способ "CascadingValue"
