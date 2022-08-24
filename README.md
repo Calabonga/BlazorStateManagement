@@ -16,7 +16,9 @@
 
 Первый способ самый простой, на мой взгляд, поэтому я начал с него. В основе лежит принцип работы Blazor (внутренние механизмы). Кода писать много не надо, и несмотря на простоту - это очень эффективный способ управления состоянием объекта.
 
-Видео записывается
+[![](https://www.calabonga.net/Uploads/blazor-state-management-2/1.png)](https://www.calabonga.net/blog/post/blazor-state-management-2)
+
+[Управление состоянием в Blazor 1](https://www.calabonga.net/blog/post/blazor-state-management-2)
 
 ## Второй способ "..."
 
@@ -29,3 +31,7 @@
 ## Четвертый способ "..."
 
 Видео планируется
+
+## Комментарии, пожелания, замечания
+
+Пишите комментарии к видео на сайте [www.calabonga.net](https://www.calabonga.net)
