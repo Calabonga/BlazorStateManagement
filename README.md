@@ -18,7 +18,7 @@
 
 [![](https://www.calabonga.net/Uploads/blazor-state-management-2/1.png)](https://www.calabonga.net/blog/post/blazor-state-management-2)
 
-[Управление состоянием в Blazor 1](https://www.calabonga.net/blog/post/blazor-state-management-2)
+[Управление состоянием в Blazor 2](https://www.calabonga.net/blog/post/blazor-state-management-2)
 
 ## Второй способ "..."
 
