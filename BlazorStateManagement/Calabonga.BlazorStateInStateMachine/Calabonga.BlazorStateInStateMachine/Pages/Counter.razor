@@ -1,0 +1,36 @@
+﻿@page "/counter"
+@using Calabonga.BlazorStateInStateMachine.Services
+@inject StateService StateService
+@implements IDisposable
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @StateService.Count</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        StateService.CounterChanged += OnCounterChanged;
+    }
+
+    private void OnCounterChanged(ComponentBase sender, int value)
+    {
+        StateHasChanged();
+    }
+
+    private void IncrementCount()
+    {
+        StateService.IncrementCounter(this);
+    }
+
+    public void Dispose()
+    {
+        StateService.CounterChanged -= OnCounterChanged;
+    }
+
+}
