@@ -1,0 +1,24 @@
+﻿@page "/counter"
+@using Fluxor
+@inherits Fluxor.Blazor.Web.Components.FluxorComponent
+@using Calabonga.BlazorStateWithRedux.StateManagement
+
+@inject IState<CounterState> CounterState
+
+@inject IDispatcher Dispatcher
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @CounterState.Value.Count</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    
+    private void IncrementCount()
+    {
+        Dispatcher.Dispatch(new IncrementCounter());
+    }
+}

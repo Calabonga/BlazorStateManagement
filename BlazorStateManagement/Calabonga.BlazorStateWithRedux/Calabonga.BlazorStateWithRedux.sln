@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calabonga.BlazorStateWithRedux", "Calabonga.BlazorStateWithRedux\Calabonga.BlazorStateWithRedux.csproj", "{1881380A-5DE4-4B59-B34A-54F5C09CBF1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1881380A-5DE4-4B59-B34A-54F5C09CBF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1881380A-5DE4-4B59-B34A-54F5C09CBF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1881380A-5DE4-4B59-B34A-54F5C09CBF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1881380A-5DE4-4B59-B34A-54F5C09CBF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A890DDA5-8812-49EB-88F1-085B37888ABF}
+	EndGlobalSection
+EndGlobal
