@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calabonga.BlazorStateInMvvm", "Calabonga.BlazorStateInMvvm\Calabonga.BlazorStateInMvvm.csproj", "{1D250404-40DD-408E-B761-4C8B338C4B1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D250404-40DD-408E-B761-4C8B338C4B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D250404-40DD-408E-B761-4C8B338C4B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D250404-40DD-408E-B761-4C8B338C4B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D250404-40DD-408E-B761-4C8B338C4B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35AED94D-E139-42F7-ADF0-390E21A217DC}
+	EndGlobalSection
+EndGlobal

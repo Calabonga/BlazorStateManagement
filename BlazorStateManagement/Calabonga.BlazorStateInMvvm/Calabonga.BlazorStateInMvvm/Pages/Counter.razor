@@ -1,0 +1,26 @@
+﻿@page "/counter"
+@using Calabonga.BlazorStateInMvvm.ViewModels
+@inject ICounterModel CounterModel
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @CounterModel.Count</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        CounterModel.Initialize();
+    }
+
+
+    private void IncrementCount()
+    {
+        CounterModel.IncrementCounter();
+    }
+}
