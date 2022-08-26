@@ -40,6 +40,15 @@
 
 Четвертый способ основан на Redux Pattern. Те, кто из вас знаком с Single Page Application разработкой на React наверняка слышали про Redux. Как вы понимание, кода снова придется написать еще немного больше чем в прошлые разы. Но поверьте, оно этого стоит.
 
+
+``` mermaid
+graph LR
+      Browser --> Actions
+      Actions --> Reducer
+      Reducer --> Store
+      Store --> Browser
+```
+
 Также хочу заметить, что на видео я использую Fluxor, эта библиотека - всего ли одна из тех, которые реализуют Redux Pattern. Более того, вы может реализовать Redux Pattern вообще без использования каких либо библиотек, но кода придется написать во много раз больше. :)
 
 [![](https://www.calabonga.net/Uploads/blazor-state-management-5/1.png)](https://www.calabonga.net/blog/post/blazor-state-management-5)
