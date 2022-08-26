@@ -22,17 +22,25 @@
 
 ## Второй способ "StateMachine"
 
+Второй способ уже не использует CascadingValue, а базируется на принципах "подписки" на события. В основе лежит принцип работы с event. Кода придется написать немного побольше, но дает некоторые полезные возможности для расширения функционала.
+
 [![](https://www.calabonga.net/Uploads/blazor-state-management-3/1.png)](https://www.calabonga.net/blog/post/blazor-state-management-3)
 
 [Управление состоянием в Blazor 5](https://www.calabonga.net/blog/post/blazor-state-management-3)
 
 ## Третий способ "MVVM"
 
+Третий способ базируется также на принципах "подписки" на события, но имеет более универсальный подход и использует паттерн MVVM. Работать также предстоит с event, а раз это MVVM, где бОльшую управляемость мы получаем за счет количества кода обслуживающего конкретный функционал, то снова придется написать еще немного больше кода.
+
 [![](https://www.calabonga.net/Uploads/blazor-state-management-4/1.png)](https://www.calabonga.net/blog/post/blazor-state-management-4)
 
 [Управление состоянием в Blazor 4](https://www.calabonga.net/blog/post/blazor-state-management-4)
 
 ## Четвертый способ "Redux Pattern"
+
+Четвертый способ основан на Redux Pattern. Те, кто из вас знаком с Single Page Application разработкой на React наверняка слышали про Redux. Как вы понимание, кода снова придется написать еще немного больше чем в прошлые разы. Но поверьте, оно этого стоит.
+
+Также хочу заметить, что на видео я использую Fluxor, эта библиотека - всего ли одна из тех, которые реализуют Redux Pattern. Более того, вы может реализовать Redux Pattern вообще без использования каких либо библиотек, но кода придется написать во много раз больше. :)
 
 [![](https://www.calabonga.net/Uploads/blazor-state-management-5/1.png)](https://www.calabonga.net/blog/post/blazor-state-management-5)
 
