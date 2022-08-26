@@ -20,17 +20,23 @@
 
 [Управление состоянием в Blazor 2](https://www.calabonga.net/blog/post/blazor-state-management-2)
 
-## Второй способ "..."
+## Второй способ "StateMachine"
 
-Видео планируется
+[![](https://www.calabonga.net/Uploads/blazor-state-management-3/1.png)](https://www.calabonga.net/blog/post/blazor-state-management-3)
 
-## Третий способ "..."
+[Управление состоянием в Blazor 5](https://www.calabonga.net/blog/post/blazor-state-management-3)
 
-Видео планируется
+## Третий способ "MVVM"
 
-## Четвертый способ "..."
+[![](https://www.calabonga.net/Uploads/blazor-state-management-4/1.png)](https://www.calabonga.net/blog/post/blazor-state-management-4)
 
-Видео планируется
+[Управление состоянием в Blazor 4](https://www.calabonga.net/blog/post/blazor-state-management-4)
+
+## Четвертый способ "Redux Pattern"
+
+[![](https://www.calabonga.net/Uploads/blazor-state-management-5/1.png)](https://www.calabonga.net/blog/post/blazor-state-management-5)
+
+[Управление состоянием в Blazor 5](https://www.calabonga.net/blog/post/blazor-state-management-5)
 
 ## Комментарии, пожелания, замечания
 
